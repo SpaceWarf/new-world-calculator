@@ -1,0 +1,18 @@
+.App {
+    height: 100%;
+
+    .ui.header:first-child {
+        margin-top: 20px;
+    }
+
+    .content {
+        font-size: 15px;
+        text-align: center;
+        line-height: 30px;
+        margin: 15px 0 15px 0;
+
+        .ui.label {
+            margin: 0 5px 0 5px;
+        }
+    }
+}
