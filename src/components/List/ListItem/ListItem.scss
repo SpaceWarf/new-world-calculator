@@ -1,0 +1,20 @@
+@import "../../assets/scss/common";
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    width: 250px;
+    
+    .input-container {
+        display: flex;
+
+        input {
+            height: 30px;
+            width: 80px;
+            padding: 5px !important;
+        }
+    }
+}

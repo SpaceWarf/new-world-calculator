@@ -2,8 +2,16 @@
 
 * {
     box-sizing: border-box;
+    font-family: "IMFellDWPica" !important;
 }
 
 #root {
     height: 100%;
 }
+
+@font-face {
+    font-family: 'IMFellDWPica';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/src/assets/fonts/IMFellDWPica-Regular.ttf') format('truetype');
+ }

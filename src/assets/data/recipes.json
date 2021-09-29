@@ -1,0 +1,54 @@
+[
+    {
+        "key": "iron-ore",
+        "name": "Iron Ore",
+        "isRawMaterial": true
+    },
+    {
+        "key": "rawhide",
+        "name": "Rawhide",
+        "isRawMaterial": true
+    },
+    {
+        "key": "fibers",
+        "name": "Fibers",
+        "isRawMaterial": true
+    },
+    {
+        "key": "green-wood",
+        "name": "Green Wood",
+        "isRawMaterial": true
+    },
+    {
+        "key": "iron-ingot",
+        "name":  "Iron Ingot",
+        "recipe": [
+            { "key": "iron-ore", "quantity": 4 }
+        ],
+        "isRawMaterial": false
+    },
+    {
+        "key": "coarse-leather",
+        "name":  "Coarse Leather",
+        "recipe": [
+            { "key": "rawhide", "quantity": 4 }
+        ],
+        "isRawMaterial": false
+    },
+    {
+        "key": "linen",
+        "name":  "Linen",
+        "recipe": [
+            { "key": "fibers", "quantity": 4 }
+        ],
+        "isRawMaterial": false
+    },
+    {
+        "key": "timber",
+        "name":  "Timber",
+        "recipe": [
+            { "key": "green-wood", "quantity": 4 }
+        ],
+        "isRawMaterial": false
+    }
+]

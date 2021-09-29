@@ -40,6 +40,17 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/i, 
+        loader: 'file-loader',
+        options: {
+          name: 'public/icons/[name].[ext]'
+        }
+      },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        type: 'asset/resource'
       }
     ]
   },
